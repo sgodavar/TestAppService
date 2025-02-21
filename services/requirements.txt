@@ -1,0 +1,12 @@
+Flask
+flask-cors
+pandas
+openai
+python-dotenv
+asyncio
+matplotlib
+langchain
+langchain-experimental
+langchain-openai
+marvin
+openpyxl
