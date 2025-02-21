@@ -34,7 +34,7 @@ CORS(app, origins="*")
 
 load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = ""
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 llm = ChatOpenAI(model="gpt-3.5-turbo")
